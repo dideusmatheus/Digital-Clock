@@ -20,3 +20,44 @@ body{
     gap: 40px;
     color: #ffff;
 }
+
+.svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.svg-circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke: #191919;
+    stroke-width: 4;
+    transform: translate(5px, 5px);
+}
+
+.svg-circle:nth-child(2){
+    stroke: var(--clr);
+}
+
+.circle{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.obj{
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#ampm{
+    position: relative;
+    font: 1rem;
+    transform: translateX(-20px);
+}
