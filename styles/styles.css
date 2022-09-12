@@ -25,6 +25,7 @@ body{
     position: relative;
     width: 150px;
     height: 150px;
+    transform: rotate(270deg);
 }
 
 .svg-circle{
@@ -38,6 +39,7 @@ body{
 
 .svg-circle:nth-child(2){
     stroke: var(--clr);
+    stroke-dasharray: 440;
 }
 
 .circle{
@@ -53,11 +55,11 @@ body{
     position: absolute;
     text-align: center;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 #ampm{
     position: relative;
-    font: 1rem;
+    font-size: 1.5rem;
     transform: translateX(-20px);
 }
